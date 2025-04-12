@@ -50,11 +50,11 @@ comment_id,username,comment_text
 ```
 ## 🛠️ How It Works
 
-# 1. Pre-filtering: Comments are first checked using better_profanity.
+### 1. Pre-filtering: Comments are first checked using better_profanity.
 
-# 2. LLaMA 3.1 Analysis: If no profanity is detected, LLaMA 3.1 is prompted via Ollama with a JSON-only response format.
+### 2. LLaMA 3.1 Analysis: If no profanity is detected, LLaMA 3.1 is prompted via Ollama with a JSON-only response format.
 
-# 3. Classification Output:
+### 3. Classification Output:
 
  - is_offensive: true / false
 
@@ -63,11 +63,11 @@ comment_id,username,comment_text
  - explanation: short explanation of the decision
 
 ## 📈 Output
-# 1. analyzed_comments.json: JSON file with original + classified results
+### 1. analyzed_comments.json: JSON file with original + classified results
 
-# 2. offense_distribution.png: Chart image showing the offense distribution
+### 2. offense_distribution.png: Chart image showing the offense distribution
 
-# 3. CLI prints:
+### 3. CLI prints:
 
  - Total offensive comments
 
