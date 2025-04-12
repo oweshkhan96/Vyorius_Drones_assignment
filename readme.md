@@ -1,8 +1,8 @@
-# 🛡️ Offensive Comment Detection with LLaMA 3.1 (Ollama)
+# Offensive Comment Detection with LLaMA 3.1 (Ollama)
 
 This Python CLI tool analyzes user comments for offensive content using the LLaMA 3.1 language model via [Ollama](https://ollama.com). It leverages both local profanity filters and large language model reasoning to identify various types of offensive content.
 
-## 🚀 Features
+## Features
 
 - ✅ Analyze comments using LLaMA 3.1 (via Ollama API)
 - 🧼 Pre-filter using `better_profanity` for quick profanity detection
@@ -15,7 +15,7 @@ This Python CLI tool analyzes user comments for offensive content using the LLaM
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 Install the dependencies via pip:
 ```
@@ -27,7 +27,7 @@ pip install pandas requests better_profanity matplotlib
 ollama run llama3.1
 ```
 
-## 📁 Input Format
+## Input Format
 Input can be a .json or .csv file with the following structure:
 
 ```
@@ -48,7 +48,7 @@ comment_id,username,comment_text
 1,john_doe,You're such a loser, nobody likes you.
 
 ```
-## 🛠️ How It Works
+## How It Works
 
 ### 1. Pre-filtering: Comments are first checked using better_profanity.
 
@@ -62,7 +62,7 @@ comment_id,username,comment_text
 
  - explanation: short explanation of the decision
 
-## 📈 Output
+## Output
 ### 1. Analyzed_comments.json: JSON file with original + classified results
 
 ### 2. Offense_distribution.png: Chart image showing the offense distribution
@@ -75,12 +75,12 @@ comment_id,username,comment_text
 
  - Top 5 offensive examples
 
-## 💻 CLI Usage
+## CLI Usage
 ```
 python analyze_comments.py [--input-file FILE] [--only-offensive] [--chart-type bar|pie]
 ```
 
-## 📊 Output
+## Output
  - analyzed_comments.json: Full list with analysis fields:
 
   - is_offensive, offense_type, explanation
@@ -89,7 +89,7 @@ python analyze_comments.py [--input-file FILE] [--only-offensive] [--chart-type 
 
  - Offense type distribution chart (offense_chart.png)
 
-## 📊 Example Output (CLI)
+## Example Output (CLI)
 ```
 ✅ Total Comments Loaded: 10
 
@@ -108,7 +108,7 @@ profanity       1
 │ troll123   │ hate speech  │ Contains xenophobic phrasing                │
 └────────────┴──────────────┴─────────────────────────────────────────────┘
 ```
-## 🧠 Powered By
+## Powered By
  - LLaMA 3.1 via Ollama
 
  - better_profanity
