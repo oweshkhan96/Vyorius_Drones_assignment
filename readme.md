@@ -93,14 +93,14 @@ python analyze_comments.py [--input-file FILE] [--only-offensive] [--chart-type 
 ```
 ✅ Total Comments Loaded: 10
 
-🚨 Number of Offensive Comments: 3
+ Number of Offensive Comments: 3
 
-📊 Offense Type Breakdown:
+ Offense Type Breakdown:
 hate speech     1
 toxicity        1
 profanity       1
 
-🔥 Top 5 Offensive Comments:
+ Top 5 Offensive Comments:
 ┌────────────┬──────────────┬──────────────┬────────────────────────────────┐
 │ Username   │ Offense Type │ Explanation  │ Comment Text                   │
 │ john_doe   │ profanity    │ Detected via pre-filter                     │
