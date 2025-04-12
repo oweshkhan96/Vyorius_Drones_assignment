@@ -63,9 +63,9 @@ comment_id,username,comment_text
  - explanation: short explanation of the decision
 
 ## 📈 Output
-### 1. analyzed_comments.json: JSON file with original + classified results
+### 1. Analyzed_comments.json: JSON file with original + classified results
 
-### 2. offense_distribution.png: Chart image showing the offense distribution
+### 2. Offense_distribution.png: Chart image showing the offense distribution
 
 ### 3. CLI prints:
 
@@ -74,3 +74,17 @@ comment_id,username,comment_text
  - Breakdown of offense types
 
  - Top 5 offensive examples
+
+## 💻 CLI Usage
+```
+python analyze_comments.py [--input-file FILE] [--only-offensive] [--chart-type bar|pie]
+```
+
+## 📊 Output
+ - analyzed_comments.json: Full list with analysis fields:
+
+  - is_offensive, offense_type, explanation
+
+ - Terminal report summary
+
+ - Offense type distribution chart (offense_chart.png)
