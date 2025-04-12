@@ -83,8 +83,35 @@ python analyze_comments.py [--input-file FILE] [--only-offensive] [--chart-type 
 ## 📊 Output
  - analyzed_comments.json: Full list with analysis fields:
 
- - - is_offensive, offense_type, explanation
+  - is_offensive, offense_type, explanation
 
  - Terminal report summary
 
  - Offense type distribution chart (offense_chart.png)
+
+## 📊 Example Output (CLI)
+```
+✅ Total Comments Loaded: 10
+
+🚨 Number of Offensive Comments: 3
+
+📊 Offense Type Breakdown:
+hate speech     1
+toxicity        1
+profanity       1
+
+🔥 Top 5 Offensive Comments:
+┌────────────┬──────────────┬──────────────┬────────────────────────────────┐
+│ Username   │ Offense Type │ Explanation  │ Comment Text                   │
+│ john_doe   │ profanity    │ Detected via pre-filter                     │
+│ angry_guy  │ toxicity     │ Use of aggressive and abusive language      │
+│ troll123   │ hate speech  │ Contains xenophobic phrasing                │
+└────────────┴──────────────┴─────────────────────────────────────────────┘
+```
+## 🧠 Powered By
+ - LLaMA 3.1 via Ollama
+
+ - better_profanity
+
+ - pandas, matplotlib, requests
+
