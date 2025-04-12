@@ -83,7 +83,7 @@ python analyze_comments.py [--input-file FILE] [--only-offensive] [--chart-type 
 ## 📊 Output
  - analyzed_comments.json: Full list with analysis fields:
 
-  - is_offensive, offense_type, explanation
+ - - is_offensive, offense_type, explanation
 
  - Terminal report summary
 
