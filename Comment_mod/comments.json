@@ -1,0 +1,27 @@
+[
+  {
+    "comment_id": 1,
+    "username": "john_doe",
+    "comment_text": "You're such a loser, nobody likes you."
+  },
+  {
+    "comment_id": 2,
+    "username": "tech_girl99",
+    "comment_text": "This is awesome, keep it up!"
+  },
+  {
+    "comment_id": 3,
+    "username": "angry_guy",
+    "comment_text": "You people are the worst. Total garbage."
+  },
+  {
+    "comment_id": 4,
+    "username": "neutral_user",
+    "comment_text": "Can someone explain this part to me?"
+  },
+  {
+    "comment_id": 5,
+    "username": "troll123",
+    "comment_text": "Go back to where you came from!"
+  }
+]

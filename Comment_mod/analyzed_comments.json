@@ -1,0 +1,42 @@
+[
+  {
+    "comment_id":1,
+    "username":"john_doe",
+    "comment_text":"You're such a loser, nobody likes you.",
+    "is_offensive":true,
+    "offense_type":"toxicity",
+    "explanation":"The comment contains toxic language targeting an individual's self-worth and social standing."
+  },
+  {
+    "comment_id":2,
+    "username":"tech_girl99",
+    "comment_text":"This is awesome, keep it up!",
+    "is_offensive":false,
+    "offense_type":"none",
+    "explanation":"The comment is positive and complimentary."
+  },
+  {
+    "comment_id":3,
+    "username":"angry_guy",
+    "comment_text":"You people are the worst. Total garbage.",
+    "is_offensive":true,
+    "offense_type":"toxicity",
+    "explanation":"The comment contains toxic language, implying a strong negative sentiment towards a group of people without using explicit hate speech."
+  },
+  {
+    "comment_id":4,
+    "username":"neutral_user",
+    "comment_text":"Can someone explain this part to me?",
+    "is_offensive":false,
+    "offense_type":"none",
+    "explanation":""
+  },
+  {
+    "comment_id":5,
+    "username":"troll123",
+    "comment_text":"Go back to where you came from!",
+    "is_offensive":true,
+    "offense_type":"hate speech",
+    "explanation":"This comment contains language that can be interpreted as xenophobic and discriminatory, targeting an individual's place of origin."
+  }
+]
