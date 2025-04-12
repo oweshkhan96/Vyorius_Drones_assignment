@@ -103,10 +103,10 @@ profanity       1
  Top 5 Offensive Comments:
 ┌────────────┬──────────────┬──────────────┬────────────────────────────────┐
 │ Username   │ Offense Type │ Explanation  │ Comment Text                   │
-│ john_doe   │ profanity    │ Detected via pre-filter                     │
-│ angry_guy  │ toxicity     │ Use of aggressive and abusive language      │
-│ troll123   │ hate speech  │ Contains xenophobic phrasing                │
-└────────────┴──────────────┴─────────────────────────────────────────────┘
+│ john_doe   │ profanity    │ Detected via pre-filter                       │
+│ angry_guy  │ toxicity     │ Use of aggressive and abusive language        │
+│ troll123   │ hate speech  │ Contains xenophobic phrasing                  │
+└────────────┴──────────────┴───────────────────────────────────────────────┘
 ```
 ## Powered By
  - LLaMA 3.1 via Ollama
